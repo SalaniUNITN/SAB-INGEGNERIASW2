@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Daily bill:</strong>
+  <%= @invoice.daily_bill %>
+</p>
+
+<p>
+  <strong>Total bill:</strong>
+  <%= @invoice.total_bill %>
+</p>
+
+<%= link_to 'Edit', edit_invoice_path(@invoice) %> |
+<%= link_to 'Back', invoices_path %>

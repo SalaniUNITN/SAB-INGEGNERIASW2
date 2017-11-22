@@ -1,14 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>SkeletonApp</title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <meta name="viewport" content="width=device-width, initial-scale=1"
   </head>
 
   <body>
+    <nav class="navbar" style="background-color: white;">
+    <span class="glyphicon glyphicon-home"> <%= link_to "Home", root_path, class:"navbar-brand" %> </span>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="nav navbar-nav">
+      <li class="nav-item">
+         <%= link_to "INVOICES", invoices_path, class:"nav-link" %>
+      </li>
+      <li>
+        <%= link_to "USERS", users_path, class:"nav-link" %>
+      </li>
+      <li>
+          <%= link_to "CLIENTS", clients_path, class:"nav-link" %>
+      </li>
+        </ul>
+      <ul class="nav navbar-nav navbar-right">
+      <li><%= link_to "Log In", logins_path, class:"nav-link" %></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
+    </ul>
+    </div>
+  </nav>
+  <div class="container">
     <%= yield %>
+  </div>
   </body>
 </html>

@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Clients</h1>
+<h1>Add Clients</h1>
 
 <table>
   <thead>
@@ -13,19 +13,27 @@
   </thead>
 
   <tbody>
+   <div class="container">
     <% @clients.each do |client| %>
       <tr>
         <td><%= client.name %></td>
         <td><%= client.surname %></td>
         <td><%= client.company %></td>
-        <td><%= link_to 'Show', client %></td>
-        <td><%= link_to 'Edit', edit_client_path(client) %></td>
-        <td><%= link_to 'Destroy', client, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+
+        <td><%= link_to 'Show', client, class: 'btn btn-default btn-xs' %></td>
+        <td><%= link_to 'Edit', edit_client_path(client), class: 'btn btn btn-default btn-xs' %></td>
+          <td><%= link_to 'Destroy', client, method: :delete, data: { confirm: 'Are you sure?' }, class: ' btn btn-default btn-xs' %></td>
+
       </tr>
     <% end %>
+  </div>
   </tbody>
 </table>
 
+
 <br>
 
-<%= link_to 'New Client', new_client_path %>
+
+<%= link_to new_client_path, class: 'btn btn-default' do %>
+  <i class="glyphicon glyphicon-plus"></i> New client
+<% end %>
