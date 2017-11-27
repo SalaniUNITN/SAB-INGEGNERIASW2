@@ -1,0 +1,141 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+html {
+overflow-y: scroll;
+}
+body {
+padding-top: 60px;
+}
+section {
+overflow: auto;
+}
+textarea {
+resize: vertical;
+}
+.center {
+text-align: center;
+}
+.center h1 {
+margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+line-height: 1;
+}
+h1 {
+font-size: 3em;
+letter-spacing: -2px;
+margin-bottom: 30px;
+text-align: center;
+}
+h2 {
+font-size: 1.2em;
+letter-spacing: -1px;
+margin-bottom: 30px;
+text-align: center;
+font-weight: normal;
+color: #777;
+}
+p {
+font-size: 1.1em;
+line-height: 1.7em;
+}
+
+#logo {
+float: left;
+margin-right: 10px;
+margin-left: 10px;
+font-size: 1.7em;
+color: #fff;
+text-transform: uppercase;
+letter-spacing: -1px;
+padding-top: 9px;
+font-weight: bold;
+}
+#logo:hover {
+color: #fff;
+text-decoration: none;
+}
+
+.conversion-section {
+    background-color: #FFFFFF;
+    margin-top: 25px;
+    padding: 25px 30px;
+}
+.conversion h3 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.conversion a.btn {
+    margin-top: 24px;
+}
+.btn-danger, .dropdown-toggle.btn-danger {
+    background-color:#c0c0c0;
+}
+.btn-danger:hover {
+    background-color:	#c0c0c0;
+}
+
+#footer {
+    padding-top: 60px;
+    background: #fff;
+    border-top: 1px dashed #ededed;
+}
+
+p {
+    margin: 0 0 1.75em;
+}
+#footer h5, #footer img.logo {
+    margin-bottom: 30px;
+}
+#footer strong {
+    color: #000;
+}
+.strong, b, strong {
+    color: #000;
+    font-weight: 500;
+}
+#footer a {
+    color: #000;
+}
+.places {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.places li {
+    float: left;
+}
+.place {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    padding: 0 20px 0 23px;
+    height: 26px;
+    border-radius: 3px 0 0 3px;
+    background: #F3F3F3;
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 26px;
+    -webkit-transition: all .4s;
+}
+.place::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+    border-left: 10px solid #EFF1F5;
+    background: #fff;
+    content: '';
+    -webkit-transition: all .4s;
+}
+#footer .footerbottom {
+    margin-top: 50px;
+    padding: 25px 0;
+    border: 1px dashed #ededed;
+}

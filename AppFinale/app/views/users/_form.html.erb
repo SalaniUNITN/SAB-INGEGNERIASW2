@@ -1,0 +1,67 @@
+<%= form_with(model: user, local: true) do |form| %>
+  <% if user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+
+      <ul>
+      <% user.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :Name %>
+    <%= form.text_field :Name, id: :user_Name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :Surname %>
+    <%= form.text_field :Surname, id: :user_Surname %>
+  </div>
+
+  <div class="field">
+    <%= form.label :EMail %>
+    <%= form.text_field :EMail, id: :user_EMail %>
+  </div>
+
+  <div class="field">
+    <%= form.label :Telephone %>
+    <%= form.text_field :Telephone, id: :user_Telephone %>
+  </div>
+
+  <div class="field">
+    <%= form.label :Partita_Iva %>
+    <%= form.text_field :Partita_Iva, id: :user_Partita_Iva %>
+  </div>
+
+  <div class="field">
+    <%= form.label :CF %>
+    <%= form.text_field :CF, id: :user_CF %>
+  </div>
+
+  <div class="field">
+    <%= form.label :Street_name %>
+    <%= form.text_field :Street_name, id: :user_Street_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :cap %>
+    <%= form.text_field :cap, id: :user_cap %>
+  </div>
+
+  <div class="field">
+    <%= form.label :city %>
+    <%= form.text_field :city, id: :user_city %>
+  </div>
+
+  <div class="field">
+    <%= form.label :street_number %>
+    <%= form.text_field :street_number, id: :user_street_number %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
