@@ -16,4 +16,4 @@ Scenario: Create the invoice incorrectly
 	When I click on "Add invoice"
 	And I dont type in all the information (e.g. I forget the hours)
 	And I click on "Add"
-	Then I should see an error
+  Then I should see an error

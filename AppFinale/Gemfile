@@ -49,6 +49,7 @@ group :test, :development do
   gem 'cucumber-rails', require: false
   gem 'selenium-webdriver'
   gem 'factory_bot_rails'
+  gem 'database_cleaner'
 end
 
 group :development do
