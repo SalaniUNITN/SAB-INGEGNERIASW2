@@ -1,6 +1,6 @@
 Feature: Clients management
 
-Background: 
+Background:
 	Given there are clients related to me in the DB
 
 Scenario: See the clients
@@ -12,25 +12,25 @@ Scenario: Delete a client
 	Given I am viewing the list of clients
 	When I click on the "Delete" button
 	Then The client should be deleted from the DB and the related invoices with him
-	
+
 Scenario: Edit a client
 	Given I am viewing the list of clients
 	When I click on the "Edit" button
-	And I change the fields	
+	And I change the fields
 	And I click on "Edit"
-	Then The client's info should be modified
+	Then The clients info should be modified
 
 Scenario: Insert a client
 	Given I am viewing the list of clients
 	When I click on the "Add" button
-	And I type in the information 
+	And I type in the information
 	And I click on "Add"
 	Then The client should be added to the list and inserted in the DB
 
 Scenario: Insert an invalid client
 	Given I am viewing the list of clients
 	When I click on the "Add" button
-	And I don't type in some information (e.g. name)
+	And I dont type in some information (e.g. name)
 	And I click on "Add"
 	Then I should see an error
 
@@ -39,7 +39,7 @@ Scenario: See a client who is in the DB
 	And I am viewing a search bar
 	When I type "Mario Rossi" in the bar
 	And I click on "Search"
-	Then I should see my client's information
+	Then I should see my clients information
 
 
 Scenario: See a client who is not in the DB

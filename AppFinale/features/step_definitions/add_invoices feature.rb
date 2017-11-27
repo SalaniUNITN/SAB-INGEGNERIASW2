@@ -4,7 +4,7 @@ Background:
 	Given There are clients in my list of clients
 
 Scenario: Create the invoice correctly
-	Given I am on the main page
+	Given I am viewing the clients list
 	When I click on "Add invoice"
 	And I type in all the information
 	And I click on "Add"
@@ -12,8 +12,8 @@ Scenario: Create the invoice correctly
 
 
 Scenario: Create the invoice incorrectly
-	Given I am on the main page
+	Given I am viewing the clients list
 	When I click on "Add invoice"
-	And I dont type in all the information (e.g. I forget the client name)
+	And I dont type in all the information (e.g. I forget the hours)
 	And I click on "Add"
 	Then I should see an error

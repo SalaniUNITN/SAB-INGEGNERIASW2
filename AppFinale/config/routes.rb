@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
 
 
-  resources :add_hours
+  resources :add_hours do
+    member do
+      get 'total'
+    end
+  end
   resources :hourname_users
   resources :hours
   resources :invoices
