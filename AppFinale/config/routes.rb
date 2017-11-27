@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
 
+  resources :add_hours
+  resources :hourname_users
   resources :hours
   resources :invoices
   resources :clients

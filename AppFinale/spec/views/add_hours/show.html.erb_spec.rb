@@ -1,9 +1,9 @@
 require 'rails_helper'
 
-RSpec.describe "hours/show", type: :view do
+RSpec.describe "add_hours/show", type: :view do
   before(:each) do
-    @hour = assign(:hour, Hour.create!(
-      :name_user => "Name User",
+    @add_hour = assign(:add_hour, AddHour.create!(
+      :name => "Name",
       :email => "Email",
       :Hourly_Wage => "Hourly Wage",
       :NHour => "N Hour",
@@ -13,7 +13,7 @@ RSpec.describe "hours/show", type: :view do
 
   it "renders attributes in <p>" do
     render
-    expect(rendered).to match(/Name User/)
+    expect(rendered).to match(/Name/)
     expect(rendered).to match(/Email/)
     expect(rendered).to match(/Hourly Wage/)
     expect(rendered).to match(/N Hour/)

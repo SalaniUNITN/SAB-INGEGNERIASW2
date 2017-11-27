@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @add_hour.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @add_hour.email %>
+</p>
+
+<p>
+  <strong>Hourly wage:</strong>
+  <%= @add_hour.Hourly_Wage %>
+</p>
+
+<p>
+  <strong>Nhour:</strong>
+  <%= @add_hour.NHour %>
+</p>
+
+<p>
+  <strong>Paid:</strong>
+  <%= @add_hour.Paid %>
+</p>
+
+<%= link_to 'Edit', edit_add_hour_path(@add_hour) %> |
+<%= link_to 'Back', add_hours_path %>

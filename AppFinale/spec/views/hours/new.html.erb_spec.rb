@@ -5,8 +5,9 @@ RSpec.describe "hours/new", type: :view do
     assign(:hour, Hour.new(
       :name_user => "MyString",
       :email => "MyString",
-      :hourly_wage => "MyString",
-      :NHour => "MyString"
+      :Hourly_Wage => "MyString",
+      :NHour => "MyString",
+      :Paid => "MyString"
     ))
   end
 
@@ -19,9 +20,11 @@ RSpec.describe "hours/new", type: :view do
 
       assert_select "input[name=?]", "hour[email]"
 
-      assert_select "input[name=?]", "hour[hourly_wage]"
+      assert_select "input[name=?]", "hour[Hourly_Wage]"
 
       assert_select "input[name=?]", "hour[NHour]"
+
+      assert_select "input[name=?]", "hour[Paid]"
     end
   end
 end

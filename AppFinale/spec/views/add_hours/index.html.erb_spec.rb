@@ -1,17 +1,17 @@
 require 'rails_helper'
 
-RSpec.describe "hours/index", type: :view do
+RSpec.describe "add_hours/index", type: :view do
   before(:each) do
-    assign(:hours, [
-      Hour.create!(
-        :name_user => "Name User",
+    assign(:add_hours, [
+      AddHour.create!(
+        :name => "Name",
         :email => "Email",
         :Hourly_Wage => "Hourly Wage",
         :NHour => "N Hour",
         :Paid => "Paid"
       ),
-      Hour.create!(
-        :name_user => "Name User",
+      AddHour.create!(
+        :name => "Name",
         :email => "Email",
         :Hourly_Wage => "Hourly Wage",
         :NHour => "N Hour",
@@ -20,9 +20,9 @@ RSpec.describe "hours/index", type: :view do
     ])
   end
 
-  it "renders a list of hours" do
+  it "renders a list of add_hours" do
     render
-    assert_select "tr>td", :text => "Name User".to_s, :count => 2
+    assert_select "tr>td", :text => "Name".to_s, :count => 2
     assert_select "tr>td", :text => "Email".to_s, :count => 2
     assert_select "tr>td", :text => "Hourly Wage".to_s, :count => 2
     assert_select "tr>td", :text => "N Hour".to_s, :count => 2

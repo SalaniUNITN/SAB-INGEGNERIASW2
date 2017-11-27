@@ -10,7 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171127082719) do
+ActiveRecord::Schema.define(version: 20171127092409) do
+
+  create_table "add_hours", force: :cascade do |t|
+    t.string "name"
+    t.string "email"
+    t.string "Hourly_Wage"
+    t.string "NHour"
+    t.string "Paid"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "clients", force: :cascade do |t|
     t.string "name"
@@ -20,6 +30,15 @@ ActiveRecord::Schema.define(version: 20171127082719) do
     t.string "street"
     t.string "cap"
     t.string "street_number"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "hourname_users", force: :cascade do |t|
+    t.string "email"
+    t.string "Hourly_Wage"
+    t.string "Nhour"
+    t.string "Paid"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

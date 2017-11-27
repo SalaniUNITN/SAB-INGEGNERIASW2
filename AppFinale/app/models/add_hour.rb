@@ -1,0 +1,2 @@
+class AddHour < ApplicationRecord
+end
