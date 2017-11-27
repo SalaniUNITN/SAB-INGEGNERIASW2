@@ -10,16 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171127132605) do
+ActiveRecord::Schema.define(version: 20171127154617) do
 
   create_table "add_hours", force: :cascade do |t|
     t.string "name"
     t.string "email"
-    t.string "Hourly_Wage"
-    t.string "NHour"
-    t.string "Paid"
+    t.integer "Hourly_Wage"
+    t.decimal "NHour"
+    t.boolean "Paid"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "client_id"
+    t.index ["client_id"], name: "index_add_hours_on_client_id"
   end
 
   create_table "clients", force: :cascade do |t|
@@ -34,31 +36,14 @@ ActiveRecord::Schema.define(version: 20171127132605) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "hourname_users", force: :cascade do |t|
-    t.string "email"
-    t.string "Hourly_Wage"
-    t.string "Nhour"
-    t.string "Paid"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "hours", force: :cascade do |t|
-    t.string "name_user"
-    t.string "email"
-    t.string "hourly_wage"
-    t.string "NHour"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.boolean "Paid"
-  end
-
   create_table "invoices", force: :cascade do |t|
     t.string "name"
     t.string "p_ivatotal"
-    t.string "bill"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.decimal "total"
+    t.integer "client_id"
+    t.index ["client_id"], name: "index_invoices_on_client_id"
   end
 
   create_table "users", force: :cascade do |t|

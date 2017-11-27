@@ -1,6 +1,6 @@
 class ClientsController < ApplicationController
   before_action :set_client, only: [:show, :edit, :update, :destroy]
-  attr_accessor :name, :email, :p_iva, :city, :street, :cap, :street_number
+  #attr_accessor :name, :email, :p_iva, :city, :street, :cap, :street_number
 
 
 

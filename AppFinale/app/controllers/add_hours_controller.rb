@@ -60,7 +60,7 @@ class AddHoursController < ApplicationController
       format.json { head :no_content }
     end
   end
-  
+
   def total
     tot = 0
     @add_hour.each do |hour|
@@ -77,7 +77,7 @@ class AddHoursController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def add_hour_params
-      params.require(:add_hour).permit(:name, :email, :Hourly_Wage, :NHour, :Paid)
+      params.require(:add_hour).permit(:name, :email, :Hourly_Wage, :NHour, :Paid, :client_id)
     end
 
 end

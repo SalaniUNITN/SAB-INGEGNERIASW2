@@ -22,6 +22,11 @@
   </div>
 
   <div class="field">
+    <%= form.label :client %>
+    <%= form.select :client_id, options_for_select(Client.all.map{|c| [c,c.id]}), id: :add_hour_name %>
+  </div>
+
+  <div class="field">
     <%= form.label :bill %>
     <%= form.text_field :bill, id: :invoice_bill %>
   </div>

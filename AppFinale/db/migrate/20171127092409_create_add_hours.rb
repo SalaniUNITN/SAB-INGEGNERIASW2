@@ -3,9 +3,9 @@ class CreateAddHours < ActiveRecord::Migration[5.1]
     create_table :add_hours do |t|
       t.string :name
       t.string :email
-      t.string :Hourly_Wage
-      t.string :NHour
-      t.string :Paid
+      t.integer :Hourly_Wage
+      t.decimal :NHour
+      t.boolean :Paid
 
       t.timestamps
     end
