@@ -1,4 +1,4 @@
-<!DOCTYPE html><html>
+<html>
 <head>
   <title> YES WE BILL COMPANY
   </title><%= stylesheet_link_tag 'application', media: 'all','data-turbolinks-track' => true %><%= javascript_include_tag 'application', 'data-turbolinks-track' => true %><%= csrf_meta_tags %>
@@ -8,35 +8,22 @@
   <header class="navbar navbar-fixed-top navbar-inverse">
     <div class="container" id="wrap">
       <%= link_to "YES WE BILL COMPANY", root_path, id: "logo" %>
+
       <nav>
         <ul class="nav navbar-nav pull-right">
           <li>
-            <%= link_to "Add Invoice", invoices_path, :class => "btn"  %>
+            <%= link_to "My Clients", clients_path %>
           </li>
-          <li>
-            <%= link_to "Clients", clients_path %>
-          </li>
-
           <li>
             <%= link_to "Add Hours", add_hours_path %>
           </li>
           <li>
-            <%= link_to "Invoice", invoices_path %>
-          </li>
-          
-        </ul>
+            <%= link_to "My Invoices", invoices_path %>
+          </li>
+        </ul>
       </nav>
-      <div id="wrap">
-        <div class="container">
-          <div class="page-header">
-          </div>
-        </div>
-      </div>
     </div>
-
-
   </header>
-
   <div class="container">
     <%= yield %>
   </div>
