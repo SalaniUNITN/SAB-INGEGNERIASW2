@@ -7,13 +7,10 @@ class ClientsController < ApplicationController
   # GET /clients
   # GET /clients.json
   def index
-    @clients = if params[:term]
-    Task.where('name LIKE ?', "%#{params[:term]}%")
-  else
-    Task.all
+    @clients =Client.all
   end
 
-  end
+
 
   # GET /clients/1
   # GET /clients/1.json
@@ -27,6 +24,7 @@ class ClientsController < ApplicationController
 
   # GET /clients/1/edit
   def edit
+
   end
 
   # POST /clients
@@ -77,6 +75,6 @@ class ClientsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def client_params
-      params.require(:client).permit(:name, :email, :p_iva, :city, :street, :cap, :street_number, :term)
+      params.require(:client).permit(:name, :email, :p_iva, :city, :street, :cap, :street_number)
     end
 end

@@ -2,12 +2,13 @@ Given("There are clients in my list of clients") do
   @client=FactoryBot.create(:client)
 end
 
-Given("I am viewing the clients list") do
-  visit clients_path
-end
 
 When("I click on {string}") do |string|
   click_on string
+end
+
+Given("I am viewing the clients list") do
+  visit clients_path
 end
 
 When("I type in all the information") do

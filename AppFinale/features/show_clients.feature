@@ -5,12 +5,11 @@ Background:
 
 Scenario: See the clients
 	Given I am viewing the main page
-	When I click on "My clients"
-	Then I should see a list of the clients related to me
+	When I click on "My Clients"
 
 Scenario: Delete a client
 	Given I am viewing the list of clients
-	When I click on "Delete"
+	When I click on "Destroy"
 	Then The client should be deleted from the DB and the related invoices with him
 
 Scenario: Edit a client
@@ -22,7 +21,7 @@ Scenario: Edit a client
 
 Scenario: Insert a client
 	Given I am viewing the list of clients
-	When I click on "Add"
+	When I click on "Add "
 	And I type in the information
 	And I click on "New Client"
 	Then The client should be added to the list and inserted in the DB
