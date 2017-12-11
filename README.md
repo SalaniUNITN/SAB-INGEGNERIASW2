@@ -27,7 +27,9 @@ In the main page we also find a sign up/log in form. It is not functioning yet, 
 
 ## MAJOR PROBLEMS ENCOUNTERED DURING THE DEVELOPMENT
 We had some problems during the creation of the skeleton app. In fact, due to a misunderstanding between the members. we added an unnecessary table to the database, called invoices. This was the table meant to keep the information about the invoices inserted, but it had the wrong fields so we added a table "add_hours", which is now used as "Invoice" table. Unfortunately we fixed this only in the last part of the development, so we left the invoice table in the db in order to avoid having problems with the system. 
+
 It has also been difficult to test the features defined with cucumber. It turned out we were not so sure on how to use the cucumber gem and implement the step definitions, so there are a few scenario failing when raking cucumber.
+
 At last, we didn't implement the search bar, the sign up and the login functions because we spent a lot of time trying to fix the testing problems.
 
 ## LICENCE OF USE
