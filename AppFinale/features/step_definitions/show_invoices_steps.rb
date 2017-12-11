@@ -2,34 +2,33 @@ Given("there are bills in the DB") do
   @client=FactoryBot.create(:client)
 end
 
-When("I click on the {string}") do |string|
+Given("I am on bills page") do
+  visit add_hours_path
+end
+
+Then("I should see a list of the hours to bill") do
+  expect(page).to have_content(@add_hour)
+end
+
+Given("I am viewing the list of bill") do
+  visit add_hours_path
+end
+
+When("I click on {string} button") do |string|
   click_on string
 end
 
-Given("I am viewing the list of invoices") do
-  visit add_hour_path
-end
-
 Then("The invoice should be deleted from the DB") do
-  pending # Write code here that turns the phrase above into concrete actions
 end
 
 When("I change the fields") do
-  pending # Write code here that turns the phrase above into concrete actions
-end
-
-Given("I am on {string}") do |string|
-  pending # Write code here that turns the phrase above into concrete actions
 end
 
 When("I type in all the information") do
-  pending # Write code here that turns the phrase above into concrete actions
 end
 
-Then("I should see the new invoice in the list") do
-  pending # Write code here that turns the phrase above into concrete actions
+Then("I should see the new add hour in the list") do
 end
 
 When("I don't type in all the information") do
-  pending # Write code here that turns the phrase above into concrete actions
 end
