@@ -1,31 +1,35 @@
-Feature: See the list of all the invoices and modify it
+Feature: See the list of all the invoices and edit it
 
 Background:
 	Given there are invoices in the DB
 
-Scenario: There are invoices in the DB created by me
+Scenario: There are invoices in the DB
 	Given I am viewing the main page
-	When I click on "My invoices"
-	Then I should see a list the invoices created by me
-
-#capire come si fa
-Scenario: There are no invoices in the DB created by me
-	Given I am viewing the main page
-	When I click on "My invoices"
-	Then I should see a message "No invoices in the DB"
+	When I click on "My Invoices"
+	Then I should see a list of the invoices
 
 Scenario: Delete an invoice
 	Given I am viewing the list of invoices
-	When I click on "Delete"
+	When I click on "Destroy"
 	Then The invoice should be deleted from the DB
 
-Scenario: Mark an invoice as payed
+Scenario: Edit an invoice
 	Given I am viewing the list of invoices
-	When I click on "Mark as paid"
-	Then The invoices field should be set to "paid"
+	When I click on the "Edit" button
+	And I change the fields
+	And I click on "Update Add hour"
+	Then The invoices info should be modified
 
-#capire come si fa
-Scenario: Mark an invoice as not payed
-	Given I am viewing the list of invoices
-	When I click on "Mark as not paid"
-	Then The invoices field should be set to "Not paid"
+Scenario: Create an invoice correctly
+	Given I am on "My Invoices" page
+	When I click on "New Invoice"
+	And I type in all the information
+	And I click on "Create Add hour"
+	Then I should see the new invoice in the list
+
+Scenario: Create the invoice incorrectly
+	Given I am on "My Invoices" page
+	When I click on "New Invoice"
+	And I don't type in all the information (e.g. I forget the client name)
+	And I click on "Create Add hour"
+	Then I should see an error

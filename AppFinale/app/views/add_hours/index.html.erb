@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Add Hours</h1>
+<h1>My Bill</h1>
 
 <table class="table table-hover">
   <thead>
@@ -11,6 +11,7 @@
       <th>Hourly wage</th>
       <th>Nhour</th>
       <th>Paid</th>
+      <th>Bill</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -24,6 +25,7 @@
         <td><%= add_hour.Hourly_Wage %></td>
         <td><%= add_hour.NHour %></td>
         <td><%= add_hour.Paid %></td>
+        <td><%= add_hour.NHour * add_hour.Hourly_Wage %></td>
         <td><%= link_to 'Show', add_hour %></td>
         <td><%= link_to 'Edit', edit_add_hour_path(add_hour) %></td>
         <td><%= link_to 'Destroy', add_hour, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -34,4 +36,12 @@
 
 <br>
 
-<%= link_to 'New Add Hour', new_add_hour_path %>
+<%= link_to 'New Invoice', new_add_hour_path %>
+<br>
+<p> Total bill: <% sum=0
+@add_hours.each do |s|
+  if s.Paid
+    sum = sum + s.NHour*s.Hourly_Wage
+  end
+end %>
+<%= sum %></p>
