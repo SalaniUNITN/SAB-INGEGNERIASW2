@@ -25,6 +25,9 @@ Again, the "New Invoice" button allows us to create an invoice and insert it in 
 
 In the main page we also find a sign up/log in form. It is not functioning yet, but it will allow a user to see the invoices created by him and the clients who he works with, in order to prevent other users to access sensible information about clients or invoices not related to them.
 
+## WHAT WORKED WELL
+The coordination between the members was very good, we all worked together without creating problems to our collegues getting help when needed without creating problems to our collegues.
+
 ## MAJOR PROBLEMS ENCOUNTERED DURING THE DEVELOPMENT
 We had some problems during the creation of the skeleton app. In fact, due to a misunderstanding between the members. we added an unnecessary table to the database, called invoices. This was the table meant to keep the information about the invoices inserted, but it had the wrong fields so we added a table "add_hours", which is now used as "Invoice" table. Unfortunately we fixed this only in the last part of the development, so we left the invoice table in the db in order to avoid having problems with the system. 
 
