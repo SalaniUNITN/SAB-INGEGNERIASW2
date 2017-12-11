@@ -17,12 +17,12 @@ After that we proceeded with a BDD (Behaviour Driven Development) approach, writ
 In the end we implemented the last functions and defined the layout of the pages, making them more accessible and intuitive.
 ## HOW TO USE INSTALL THE APPLICATION
 
-Clone the repository using git clone https://github.com/SalaniUNITN/SAB-INGEGNERIASW2.git .
+Clone the repository using git clone https://github.com/SalaniUNITN/SAB-INGEGNERIASW2.git.
 Then from terminal type:
 cd Assignments/AppFatturazione/ # to go into the app directory
-bundle install # to install all the gems NEEDED FROM THIS APP
-rails db:migrate # to create the db and execute all the migrations
-rails server # to launch the webserver and to be able to run our app in your browser(http://localhost:3000/
+bundle install: to install all the gems NEEDED FROM THIS APP
+rails db:migrate:to create the db and execute all the migrations
+rails server: to launch the webserver and to be able to run our app in your browser(http://localhost:3000/
 Now you are ready to go you just need to USE THE WEBSITE
 
 ## HOW TO USE THE APPLICATION
