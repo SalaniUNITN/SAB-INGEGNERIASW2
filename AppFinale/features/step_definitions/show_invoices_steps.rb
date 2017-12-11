@@ -14,7 +14,7 @@ Given("I am viewing the list of bill") do
   visit add_hours_path
 end
 
-When("I click on {string} button") do |string|
+When("I click on the {string} button") do |string|
   click_on string
 end
 
