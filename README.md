@@ -15,6 +15,15 @@ First of all, we wrote the user stories, which are basically the functions we wa
 In second place, using Ruby on Rails, we developed the skeleton of the app, creating a DB, which allows us to keep all the information we need, and a main page.
 After that we proceeded with a BDD (Behaviour Driven Development) approach, writing test cases and features and developing the functions and structure of the web application while testing using the Cucumber gem.
 In the end we implemented the last functions and defined the layout of the pages, making them more accessible and intuitive.
+## HOW TO USE INSTALL THE APPLICATION
+
+Install GitHub Desktop, which is an easy way to manage the repository.
+Then clone the repository https://github.com/SalaniUNITN/SAB-INGEGNERIASW2.git (Go to GitHub Desktop, click on file and the select clone repository).
+Then from terminal type: cd ....(the route where you've cloned the repo) to go into the app directory.
+Bundle install: to install all the gems NEEDED FROM THIS APP.
+rails db:migrate:to create the db and execute all the migrations
+rails server: to launch the webserver and to be able to run our app in your browser(http://localhost:3000/).
+Now you are ready to go you just need to USE THE WEBSITE
 
 ## HOW TO USE THE APPLICATION
 Visiting the main page of the application we find two buttons on the upper-right side of the screen. Clicking on **My Clients** we'll be redirected to a page showing the list of the clients and the buttons to manage it. On this page we will find another link "New Client" which will allow us to insert a new client in the database. We also find a search bar, which unfortunately doesn't work yet.
@@ -24,6 +33,8 @@ The "Total bill" shown at the bottom of the page is the sum of the single bills 
 Again, the "New Invoice" button allows us to create an invoice and insert it in the database.
 
 In the main page we also find a sign up/log in form. It is not functioning yet, but it will allow a user to see the invoices created by him and the clients who he works with, in order to prevent other users to access sensible information about clients or invoices not related to them.
+
+
 
 ## WHAT WORKED WELL
 The coordination between the members was very good, we all worked together without creating problems to our collegues getting help when needed without creating problems to our collegues.

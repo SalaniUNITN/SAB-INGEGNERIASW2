@@ -1,2 +1,5 @@
 
 README.md
+AppFinale/app/models/add_hour.rb
+AppFinale/app/views/add_hours/index.html.erb
+AppFinale/app/views/add_hours/index.html.erb
