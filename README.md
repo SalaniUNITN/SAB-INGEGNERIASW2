@@ -17,9 +17,9 @@ After that we proceeded with a BDD (Behaviour Driven Development) approach, writ
 In the end we implemented the last functions and defined the layout of the pages, making them more accessible and intuitive.
 ## HOW TO USE INSTALL THE APPLICATION
 
-Clone the repository using git clone https://github.com/SalaniUNITN/SAB-INGEGNERIASW2.git.
-Then from terminal type:
-cd Assignments/AppFatturazione/ # to go into the app directory.
+Install GitHub Desktop, which is an easy way to manage the repository.
+Then clone the repository https://github.com/SalaniUNITN/SAB-INGEGNERIASW2.git (Go to GitHub Desktop, click on file and the select clone repository).
+Then from terminal type: cd ....(the route where you've cloned the repo) to go into the app directory.
 Bundle install: to install all the gems NEEDED FROM THIS APP.
 rails db:migrate:to create the db and execute all the migrations
 rails server: to launch the webserver and to be able to run our app in your browser(http://localhost:3000/).
