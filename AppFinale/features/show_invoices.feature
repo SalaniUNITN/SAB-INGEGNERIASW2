@@ -1,7 +1,7 @@
 Feature: See the list of all the invoices and edit it
 
 Background:
-	Given there are invoices in the DB
+	Given there are hour in the DB
 
 Scenario: There are invoices in the DB
 	Given I am viewing the main page
@@ -30,6 +30,6 @@ Scenario: Create an invoice correctly
 Scenario: Create the invoice incorrectly
 	Given I am on "My Invoices" page
 	When I click on "New Invoice"
-	And I don't type in all the information (e.g. I forget the client name)
+	And I don't type in all the information
 	And I click on "Create Add hour"
 	Then I should see an error

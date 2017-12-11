@@ -1,6 +1,6 @@
 
 Given("there are clients in the DB") do
-  visit clients_path
+  @client=FactoryBot.create(:client)
 end
 
 Given("I am viewing the main page") do
@@ -8,25 +8,24 @@ Given("I am viewing the main page") do
 end
 
 Then("I should see a list of the clients") do
-  visit clients_path
+  expect(page).to have_content(@client.email)
+  expect(page).to have_link("Edit")
 end
 
 Given("I am viewing the list of clients") do
   visit clients_path
 end
 
-When("I click on the {string} button") do |string|
-  click_on "My Clients"
-end
-
 Then("The client should be deleted from the DB") do
+
 end
 
 When("I change the information") do
+
 end
 
 Then("The client's info should be modified") do
-  click_on "Update Client"
+  expect(page).to have_content(@client.name)
 end
 
 When("I type in the information") do
@@ -40,7 +39,7 @@ When("I type in the information") do
 end
 
 Then("The client should be added to the list and inserted in the DB") do
-  click_on "Create Client"
+  expect(page).to have_content(@client)
 end
 
 Then("I should see a list of the invoices") do
@@ -55,17 +54,7 @@ Given("I am on {string} page") do |string|
   visit string
 end
 
-When("I don't type in all the information (e.g. I forget the client name)") do
- fill_in "Name", with:""
- fill_in "Email", with:"francesco@yahoo.it"
- fill_in "P iva", with:"Francesco"
- fill_in "City", with:"Francesco"
- fill_in "Street", with:"true"
- fill_in "Cap", with:"Francesco"
- fill_in "Street number", with:"true"
-end
-
-And("I don't type in some information (e.g. name)") do
+And("I don't type in some information") do
   fill_in "Name", with:""
   fill_in "Email", with:"francesco@yahoo.it"
   fill_in "P iva", with:"Francesco"
@@ -75,6 +64,9 @@ And("I don't type in some information (e.g. name)") do
   fill_in "Street number", with:"true"
 end
 
+Then("I should see an error") do
+  expect(page).to have_css('#error_explanation')
+end
 
 
 When("I click on {string}") do |string|
