@@ -30,7 +30,7 @@ We had some problems during the creation of the skeleton app. In fact, due to a 
 It has also been difficult to test the features defined with cucumber. It turned out we were not so sure on how to use the cucumber gem and implement the step definitions, so there are a few scenario failing when raking cucumber.
 At last, we didn't implement the search bar, the sign up and the login functions because we spent a lot of time trying to fix the testing problems.
 
-## LICENCE OF USAGE
+## LICENCE OF USE
 Copyright (c) 2017 Francesco Salani, Simone Anzelini, Luka Buisic
 
 Permission is hereby granted, free of charge, to any person
@@ -49,8 +49,5 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
-Bill Project, Group: Anzelini, Salani, Buisic
-Added entities and reletion
-Added validation
-Added graphic design
-Added features
+Invoice system Project 
+Group: Simone Anzelini, Francesco Salani, Luka Buisic
