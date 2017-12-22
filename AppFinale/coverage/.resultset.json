@@ -1,14 +1,14 @@
 {
   "Cucumber Features": {
     "coverage": {
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/config/environment.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/config/application.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/config/application.rb": [
         1,
         null,
         1,
@@ -28,12 +28,12 @@
         null,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/config/boot.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/config/environments/test.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/config/environments/test.rb": [
         1,
         null,
         null,
@@ -77,7 +77,7 @@
         null,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/config/initializers/application_controller_renderer.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/config/initializers/application_controller_renderer.rb": [
         null,
         null,
         null,
@@ -87,7 +87,7 @@
         null,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/config/initializers/assets.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -103,7 +103,7 @@
         null,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/config/initializers/backtrace_silencers.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -112,20 +112,20 @@
         null,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/config/initializers/cookies_serializer.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/config/initializers/cookies_serializer.rb": [
         null,
-        null,
-        null,
-        null,
-        1
-      ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/config/initializers/inflections.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/config/initializers/filter_parameter_logging.rb": [
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -143,13 +143,13 @@
         null,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/config/initializers/mime_types.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/config/initializers/simple_form.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/config/initializers/simple_form.rb": [
         null,
         1,
         null,
@@ -320,7 +320,7 @@
         null,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/config/initializers/wrap_parameters.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -336,7 +336,7 @@
         null,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/spec/factories/add_hours.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/spec/factories/add_hours.rb": [
         1,
         1,
         1,
@@ -347,32 +347,7 @@
         null,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/spec/factories/clients.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/spec/factories/invoices.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/spec/factories/users.rb": [
-        1,
-        1,
-        1,
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/spec/factories/clients.rb": [
         1,
         1,
         1,
@@ -385,7 +360,32 @@
         null,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/config/routes.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/spec/factories/invoices.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/spec/factories/users.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/config/routes.rb": [
         1,
         1,
         null,
@@ -411,7 +411,7 @@
         null,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/features/step_definitions/show_clients_steps.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/features/step_definitions/show_clients_steps.rb": [
         null,
         1,
         5,
@@ -487,7 +487,7 @@
         10,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/features/step_definitions/show_invoices_steps.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/features/step_definitions/show_invoices_steps.rb": [
         1,
         5,
         null,
@@ -523,7 +523,7 @@
         1,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/app/models/client.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/app/models/client.rb": [
         1,
         1,
         1,
@@ -543,41 +543,41 @@
         null,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/app/models/application_record.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/app/controllers/static_pages_controller.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/app/controllers/static_pages_controller.rb": [
         1,
         1,
         0,
         null,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/app/controllers/application_controller.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/app/controllers/application_controller.rb": [
         1,
         1,
         1,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/app/helpers/application_helper.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/app/helpers/add_hours_helper.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/app/helpers/add_hours_helper.rb": [
         1,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/app/helpers/clients_helper.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/app/helpers/clients_helper.rb": [
         1,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/app/helpers/invoices_helper.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/app/helpers/invoices_helper.rb": [
         1,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/app/helpers/sessions_helper.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/app/helpers/sessions_helper.rb": [
         1,
         null,
         1,
@@ -589,11 +589,11 @@
         null,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/app/helpers/static_pages_helper.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/app/helpers/static_pages_helper.rb": [
         1,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/app/helpers/users_helper.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/app/helpers/users_helper.rb": [
         1,
         null,
         null,
@@ -604,7 +604,7 @@
         null,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/app/controllers/clients_controller.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/app/controllers/clients_controller.rb": [
         1,
         1,
         null,
@@ -686,7 +686,7 @@
         null,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/app/controllers/add_hours_controller.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/app/controllers/add_hours_controller.rb": [
         1,
         1,
         null,
@@ -771,13 +771,12 @@
         null,
         null
       ],
-      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/SAB-INGEGNERIASW2/AppFinale/app/models/add_hour.rb": [
+      "/Users/francescosalani/Desktop/Universita 2 anno /INGS2/Ruby on rails/cartella senza titolo/SAB-INGEGNERIASW2/AppFinale/app/models/add_hour.rb": [
         1,
         1,
-        null,
         null
       ]
     },
-    "timestamp": 1513028070
+    "timestamp": 1513951565
   }
 }

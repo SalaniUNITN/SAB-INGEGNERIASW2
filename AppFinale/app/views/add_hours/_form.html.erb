@@ -38,8 +38,9 @@
 
   <div class="field">
     <%= form.label :Paid %>
-    <%= form.text_field :Paid, id: :add_hour_Paid %>
+    <%= form.select :Paid, options_for_select(Client.all.map{|c| [c,c.id]}), id: :add_hour_Paid %>
   </div>
+
 
   <div class="actions">
     <%= form.submit %>
